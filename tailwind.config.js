@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./pages/**/*.tsx", "./components/**/*.tsx"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        accent: "#CCA4DE",
+      },
+    },
   },
   plugins: [],
 };

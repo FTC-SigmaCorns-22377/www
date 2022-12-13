@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { motion, useScroll } from "framer-motion";
+import { motion, useIsPresent, useScroll } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 
 import robot_render from "../public/media/robot_render.png";

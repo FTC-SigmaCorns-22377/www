@@ -5,9 +5,11 @@ import sigmablank from "../public/branding/sigmablank.png";
 export default function Navbar() {
   return (
     <nav className="flex flex-row justify-between py-2 px-7">
-      <Image src={sigmablank} alt="Sigma" width={60} />
+      <Link href="/">
+        <Image src={sigmablank} alt="Sigma" width={60} />
+      </Link>
       <div className="hidden md:flex flex-row gap-10 text-sm ">
-        <Navlink text="Team" href="#test" />
+        <Navlink text="Team" href="/team" />
         <Navlink text="Outreach" href="/outreach" />
         <Navlink text="Software" href="/software" />
         <Navlink text="Hardware" href="/hardware" />
