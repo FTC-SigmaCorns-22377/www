@@ -118,19 +118,19 @@ function Navlink({ text, href, router }: NavlinkProps) {
 function MobileNavlink({ text, href, router }: NavlinkProps) {
   const isSelected = router.asPath === href;
   return (
-    <motion.div
-      className={
-        "py-3 px-5 rounded-2xl hover:bg-gray-700 transition-all " +
-        (isSelected ? "bg-gray-700" : "bg-base2")
-      }
-      variants={{
-        closed: { opacity: 0, x: 20 },
-        open: { opacity: 1, x: 0 },
-      }}
-    >
-      <Link href={href} className="my-auto hover:text-gray-300 transition-all">
+    <Link href={href} className="">
+      <motion.div
+        className={
+          "py-3 px-5 rounded-2xl hover:bg-gray-700 transition-all " +
+          (isSelected ? "bg-gray-700" : "bg-base2")
+        }
+        variants={{
+          closed: { opacity: 0, x: 20 },
+          open: { opacity: 1, x: 0 },
+        }}
+      >
         {text}
-      </Link>
-    </motion.div>
+      </motion.div>
+    </Link>
   );
 }
