@@ -8,6 +8,7 @@ import {
 import { useEffect, useRef, useState } from "react";
 
 import { slidedown, stagger } from "../utils/motionPresets";
+import RobotSection from "../components/RobotSection";
 
 export default function Home() {
   const [value, setValue] = useState(0);
@@ -44,20 +45,7 @@ export default function Home() {
           </motion.h3>
         </div>
       </section>
-      <motion.section
-        {...slidedown}
-        id="robot"
-        className="sticky top-20 pt-5 md:pt-0 z-10"
-      >
-        <Image
-          src={require(`../public/media/robot_animation/${String(
-            Math.floor(value * 100)
-          ).padStart(4, "0")}.png`)}
-          alt="Robot Render"
-          className="mx-auto"
-          ref={ref}
-        />
-      </motion.section>
+      <RobotSection value={value} />
       <section className="h-screen p-10 text-black flex flex-col justify-between">
         <Statistic className="bg-green-400 md:mr-auto">
           Established December, 2022
