@@ -222,14 +222,17 @@ export default function RobotSection({ value }: RobotSectionProps) {
   const index = Math.floor(value * (images.length - 1));
   // get the image to display
   console.log(index);
-  const image = images[index];
   return (
     <motion.section
       {...slidedown}
       id="robot"
       className="sticky top-20 pt-5 md:pt-0 z-10"
     >
-      <Image src={image} alt="Robot Render" className="mx-auto" />
+      {images.map((image, i) => (
+        <div key={i} className={index === i ? "block" : "hidden"}>
+          <Image src={image} alt="robot" priority />
+        </div>
+      ))}
     </motion.section>
   );
 }
