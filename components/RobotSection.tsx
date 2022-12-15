@@ -230,7 +230,7 @@ export default function RobotSection({ value }: RobotSectionProps) {
     >
       {images.map((image, i) => (
         <div key={i} className={index === i ? "block" : "hidden"}>
-          <Image src={image} alt="robot" priority />
+          <Image src={image} alt="robot" loading="eager" />
         </div>
       ))}
     </motion.section>
