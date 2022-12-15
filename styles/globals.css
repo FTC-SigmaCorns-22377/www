@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 /* smooth scroll */
-html {
+html,
+body {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }

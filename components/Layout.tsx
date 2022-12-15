@@ -1,5 +1,6 @@
 import { Figtree } from "@next/font/google";
-import { motion, useIsPresent } from "framer-motion";
+import { AnimatePresence, motion, useIsPresent } from "framer-motion";
+import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 const figtree = Figtree({
@@ -17,17 +18,8 @@ export default function Layout({ children }: LayoutProps) {
       <div className="min-h-screen bg-black text-white relative">
         <Navbar />
         <main className={figtree.className}>{children}</main>
+        <Footer />
       </div>
-      <motion.div
-        initial={{ scaleX: 1 }}
-        animate={{
-          scaleX: 0,
-          transition: { duration: 0.5, ease: "circOut" },
-        }}
-        exit={{ scaleX: 1, transition: { duration: 0.5, ease: "circIn" } }}
-        style={{ originX: isPresent ? 0 : 1 }}
-        className="fixed top-0 left-0 h-screen w-full bg-accent z-30"
-      />
     </>
   );
 }
