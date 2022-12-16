@@ -3,7 +3,7 @@ import { HTMLMotionProps } from "framer-motion";
 export const slidedown: HTMLMotionProps<"div"> = {
   variants: {
     hidden: { y: -20, opacity: 0 },
-    visible: { y: 0, opacity: 1, transition: { duration: 0.5 } },
+    visible: { y: 0, opacity: 1, transition: { duration: 1 } },
   },
 };
 
@@ -20,9 +20,6 @@ export const slideright: HTMLMotionProps<"div"> = {
     hidden: { x: 20, opacity: 0 },
     visible: { x: 0, opacity: 1, transition: { duration: 0.5 } },
   },
-  initial: "hidden",
-  animate: "visible",
-  exit: "hidden",
 };
 
 export const stagger: HTMLMotionProps<"div"> = {

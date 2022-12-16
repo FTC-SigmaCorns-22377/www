@@ -37,12 +37,6 @@ export default function Team() {
       image: bencaunt,
       roles: [captain, software, hardware, ctrlalt],
     },
-    {
-      name: "Achi Paul",
-      blurb: "I am not on the team actually",
-      image: "/media/team/achintya.jpeg",
-      roles: [hardware, captain],
-    },
   ];
 
   return (

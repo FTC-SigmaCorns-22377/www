@@ -1,9 +1,8 @@
 import { motion } from "framer-motion";
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 import Title from "../components/Title";
 import Wrapper from "../components/Wrapper";
-
 import sigmablank from "../public/branding/sigmablank.png";
 import { slidedown, slideright, stagger } from "../utils/motionPresets";
 
@@ -26,18 +25,13 @@ export default function Software() {
           velit. Aenean sodales mi non erat volutpat ornare. Etiam turpis nisl,
           luctus sed dictum quis, consequat eu elit.
         </motion.section>
-        <motion.section
-          initial="hidden"
-          animate="visible"
-          exit={{ opacity: 0 }}
-          variants={{
-            hidden: { y: -20, opacity: 0 },
-            visible: { y: 0, opacity: 1, transition: { staggerChildren: 1 } },
-          }}
-        >
-          <h2 className="text-center text-3xl">Our repos:</h2>
+        <motion.section>
+          <motion.h2 {...slidedown} className="text-center text-3xl">
+            Our repos:
+          </motion.h2>
           <Repo url="https://github.com/FTC-SigmaCorns-22377/roadrunner/" />
           <Repo url="https://github.com/FTC-SigmaCorns-22377/www/" />
+          <Repo url="https://github.com/FTC-SigmaCorns-22377/homeostatis/" />
         </motion.section>
       </div>
     </Wrapper>

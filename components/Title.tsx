@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { slidedown } from "../utils/motionPresets";
 
 interface TitleProps {
   text: string;
@@ -6,24 +7,7 @@ interface TitleProps {
 
 export default function Title({ text }: TitleProps) {
   return (
-    <motion.h1
-      variants={{
-        hidden: {
-          opacity: 0,
-          y: -20,
-          transition: { duration: 1 },
-        },
-        visible: {
-          opacity: 1,
-          y: 0,
-          transition: { duration: 1 },
-        },
-      }}
-      initial="hidden"
-      animate="visible"
-      exit="hidden"
-      className="mt-20 text-center text-6xl"
-    >
+    <motion.h1 {...slidedown} className="mt-20 text-center text-6xl">
       {text}
     </motion.h1>
   );
