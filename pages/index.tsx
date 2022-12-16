@@ -11,6 +11,11 @@ import { slidedown, stagger } from "../utils/motionPresets";
 import RobotSection from "../components/RobotSection";
 import Wrapper from "../components/Wrapper";
 
+// List
+// TODO: get to do extension for vscode
+// TODO: add tailwind prose
+// TODO: add markdown parser
+
 export default function Home() {
   const [value, setValue] = useState(0);
   const ref = useRef(null);

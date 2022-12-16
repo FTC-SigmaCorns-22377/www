@@ -15,6 +15,16 @@ export const slideup: HTMLMotionProps<"div"> = {
   exit: { y: 20, opacity: 0, transition: { duration: 0.3 } },
 };
 
+export const slideright: HTMLMotionProps<"div"> = {
+  variants: {
+    hidden: { x: 20, opacity: 0 },
+    visible: { x: 0, opacity: 1, transition: { duration: 0.5 } },
+  },
+  initial: "hidden",
+  animate: "visible",
+  exit: "hidden",
+};
+
 export const stagger: HTMLMotionProps<"div"> = {
   initial: "hidden",
   animate: "visible",

@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import { slideup, stagger } from "../utils/motionPresets";
 import Wrapper from "../components/Wrapper";
 
+import bencaunt from "../public/media/team/bencaunt.png";
+
 export default function Team() {
   const captain: RoleProps = {
     role: "Captain",
@@ -25,15 +27,23 @@ export default function Team() {
     color: "bg-pink-400",
   };
 
-  const ben = {
-    name: "Ben Caunt",
-    blurb:
-      "Hey everyone! I am ben the world’s dean list person so i am very cool and very good at programming or something!",
-    image: require("../public/media/team/benny.png"),
-    roles: [captain, software, hardware, ctrlalt],
-  };
+  // TODO: get someone to add team members
 
-  const members: TeamMemberProps[] = [ben, ben, ben, ben];
+  const members: TeamMemberProps[] = [
+    {
+      name: "Ben Caunt",
+      blurb:
+        "Hey everyone! I am ben the world’s dean list person so i am very cool and very good at programming or something!",
+      image: bencaunt,
+      roles: [captain, software, hardware, ctrlalt],
+    },
+    {
+      name: "Achi Paul",
+      blurb: "I am not on the team actually",
+      image: "/media/team/achintya.jpeg",
+      roles: [hardware, captain],
+    },
+  ];
 
   return (
     <Wrapper>

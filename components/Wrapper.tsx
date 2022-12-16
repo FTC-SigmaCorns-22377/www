@@ -8,7 +8,7 @@ interface WrapperProps {
 
 export default function Wrapper({ className, children }: WrapperProps) {
   return (
-    <motion.div className={"relative " + className} {...stagger}>
+    <motion.div className={"relative min-h-screen " + className} {...stagger}>
       {children}
     </motion.div>
   );
