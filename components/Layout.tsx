@@ -15,9 +15,11 @@ export default function Layout({ children }: LayoutProps) {
   const isPresent = useIsPresent();
   return (
     <>
-      <div className="min-h-screen bg-black text-white relative">
+      <div
+        className={`min-h-screen bg-black text-white relative ${figtree.className}`}
+      >
         <Navbar />
-        <main className={figtree.className}>{children}</main>
+        <main>{children}</main>
         <Footer />
       </div>
     </>

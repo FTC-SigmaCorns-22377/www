@@ -58,7 +58,7 @@ export default function Navbar() {
       <FontAwesomeIcon
         icon={faBars}
         size="2x"
-        className="block md:hidden my-auto"
+        className="block md:hidden my-auto cursor-pointer"
         onClick={() => setMobileMenuOpen(true)}
       />
       <AnimatePresence>
@@ -78,7 +78,7 @@ export default function Navbar() {
               <FontAwesomeIcon
                 icon={faXmark}
                 size="2x"
-                className="my-auto"
+                className="my-auto cursor-pointer"
                 onClick={() => setMobileMenuOpen(false)}
               />
             </div>

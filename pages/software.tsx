@@ -11,7 +11,7 @@ export default function Software() {
   return (
     <Wrapper>
       <Title text="Software" />
-      <div className="grid grid-cols-2 mt-10 p-10 gap-10">
+      <div className="flex flex-col-reverse md:grid md:grid-cols-2 mt-10 p-10 gap-10">
         <motion.section className="text-2xl" {...slidedown}>
           {/* TODO: get software member to right blurb */}
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
