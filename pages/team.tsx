@@ -2,6 +2,7 @@ import Title from "../components/Title";
 import Image, { StaticImageData } from "next/image";
 import { motion } from "framer-motion";
 import { slideup, stagger } from "../utils/motionPresets";
+import Wrapper from "../components/Wrapper";
 
 export default function Team() {
   const captain: RoleProps = {
@@ -35,15 +36,12 @@ export default function Team() {
   const members: TeamMemberProps[] = [ben, ben, ben, ben];
 
   return (
-    <motion.div exit={{ opacity: 0 }}>
+    <Wrapper>
       <Title text="Meet the Team" />
-      <motion.div
-        {...stagger}
-        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 m-10"
-      >
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 m-10">
         {members.map((member) => TeamMember(member))}
-      </motion.div>
-    </motion.div>
+      </div>
+    </Wrapper>
   );
 }
 

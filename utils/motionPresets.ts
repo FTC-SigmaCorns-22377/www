@@ -18,7 +18,17 @@ export const slideup: HTMLMotionProps<"div"> = {
 export const stagger: HTMLMotionProps<"div"> = {
   initial: "hidden",
   animate: "visible",
+  exit: { opacity: 0 },
   variants: {
     visible: { transition: { staggerChildren: 0.3 } },
+  },
+};
+
+export const quickStagger: HTMLMotionProps<"div"> = {
+  initial: "hidden",
+  animate: "visible",
+  exit: "hidden",
+  variants: {
+    visible: { transition: { staggerChildren: 0.2 } },
   },
 };

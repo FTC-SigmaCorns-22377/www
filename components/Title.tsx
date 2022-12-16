@@ -11,18 +11,17 @@ export default function Title({ text }: TitleProps) {
         hidden: {
           opacity: 0,
           y: -20,
+          transition: { duration: 1 },
         },
         visible: {
           opacity: 1,
           y: 0,
+          transition: { duration: 1 },
         },
-      }}
-      exit={{
-        y: -20,
-        opacity: 0,
       }}
       initial="hidden"
       animate="visible"
+      exit="hidden"
       className="mt-20 text-center text-6xl"
     >
       {text}

@@ -14,6 +14,7 @@ export default function Footer() {
           </Link>
         </div>
         <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          {/* TODO: add resources */}
           <LinkRow title="Resources">
             <LinkItem
               href="/https://www.firstinspires.org/robotics/ftc"
@@ -40,6 +41,7 @@ export default function Footer() {
           </Link>
           . All Rights Reserved.
         </span>
+        {/* TODO: add socials */}
         <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
           <a href="#" className="text-gray-500 hover:text-white">
             <svg

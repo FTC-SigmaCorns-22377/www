@@ -1,25 +1,29 @@
 import { motion } from "framer-motion";
+import CoolLink from "../components/CoolLink";
 import Title from "../components/Title";
-import { stagger } from "../utils/motionPresets";
+import Wrapper from "../components/Wrapper";
+import { quickStagger, stagger } from "../utils/motionPresets";
 
 export default function Outreach() {
   return (
-    <motion.div className="relative" {...stagger} exit={{ opacity: 0 }}>
+    <Wrapper>
       <Title text="Outreach" />
       <div className="grid md:grid-cols-4 gap-5 md:gap-10 m-10">
         <OutreachStat className="col-span-2 row-span-2 from-green-400 to-blue-600">
           <h1 className="text-3xl md:text-5xl lg:text-8xl">50,000+</h1>
           <h2 className="text-2xl lg:text-4xl">
-            pageviews and counting at Ctrl Alt FTC, the most renowned control
-            theory guide for FTC teams, and beyond!
+            pageviews and counting at{" "}
+            <CoolLink text="Ctrl Alt FTC" href="https://ctrlaltftc.org" />, the
+            most renowned control theory guide for FTC teams, and beyond!
           </h2>
         </OutreachStat>
+        {/* TODO: add actual content */}
         <OutreachStat className="from-pink-400 to-purple-600"></OutreachStat>
         <OutreachStat className="from-yellow-400 to-orange-600"></OutreachStat>
         <OutreachStat className="from-blue-400 to-indigo-600"></OutreachStat>
         <OutreachStat className="from-green-400 to-blue-600"></OutreachStat>
       </div>
-    </motion.div>
+    </Wrapper>
   );
 }
 
@@ -36,6 +40,10 @@ function OutreachStat({ children, className }: OutreachStatProps) {
         className
       }
       whileHover={{ scale: 0.95 }}
+      variants={{
+        hidden: { scale: 0.5, opacity: 0, transition: { duration: 0.5 } },
+        visible: { scale: 1, opacity: 1, transition: { duration: 1 } },
+      }}
     >
       {children}
     </motion.div>

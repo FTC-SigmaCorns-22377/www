@@ -9,6 +9,7 @@ import { useEffect, useRef, useState } from "react";
 
 import { slidedown, stagger } from "../utils/motionPresets";
 import RobotSection from "../components/RobotSection";
+import Wrapper from "../components/Wrapper";
 
 export default function Home() {
   const [value, setValue] = useState(0);
@@ -22,7 +23,7 @@ export default function Home() {
   }, []);
 
   return (
-    <motion.div className="relative" {...stagger} exit={{ opacity: 0 }}>
+    <Wrapper>
       <section id="hero" className="text-center flex flex-col">
         <div className="h-[10vh]"></div>
         <div className="flex flex-col md:gap-2">
@@ -57,7 +58,7 @@ export default function Home() {
           3+ members i think!
         </Statistic>
       </section>
-    </motion.div>
+    </Wrapper>
   );
 }
 

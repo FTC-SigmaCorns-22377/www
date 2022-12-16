@@ -15,7 +15,6 @@ interface linkList {
 
 export default function Navbar() {
   const router = useRouter();
-  console.log(router.asPath);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const links: linkList[] = [
