@@ -1,16 +1,10 @@
-import {
-  faBasketball,
-  faCircleExclamation,
-  faExternalLink,
-  faLink,
-  faQrcode,
-  faUpRightAndDownLeftFromCenter,
-} from "@fortawesome/free-solid-svg-icons";
+import { faExternalLink } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
 import sigmacorntext from "../public/branding/sigmacorntext.png";
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 // inspired by flowbite
 
@@ -53,10 +47,11 @@ export default function Footer() {
         </span>
         {/* TODO: add socials */}
         <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-          <SocialIcon icon={faExternalLink} href="#" alt="Coming Soon" />
-          <SocialIcon icon={faExternalLink} href="#" alt="Coming Soon" />
-          <SocialIcon icon={faExternalLink} href="#" alt="Coming Soon" />
-          <SocialIcon icon={faExternalLink} href="#" alt="Coming Soon" />
+          <SocialIcon
+            icon={faGithub}
+            href="https://github.com/FTC-SigmaCorns-22377"
+            alt="Github"
+          />
         </div>
       </div>
     </footer>

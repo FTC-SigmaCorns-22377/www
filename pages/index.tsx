@@ -12,10 +12,8 @@ import RobotSection from "../components/RobotSection";
 import Wrapper from "../components/Wrapper";
 
 // List
-// TODO: get to do extension for vscode
 // TODO: add tailwind prose
 // TODO: add markdown parser
-// TODO: add brand fontawesome
 
 export default function Home() {
   const [value, setValue] = useState(0);
