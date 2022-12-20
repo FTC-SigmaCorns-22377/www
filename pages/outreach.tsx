@@ -16,7 +16,6 @@ export default function Outreach() {
             the globe!
           </h2>
         </OutreachStat>
-        {/* TODO: add actual content */}
         <OutreachStat className="from-pink-400 to-purple-600 text-xl p-5">
           <p>
             We maintain{" "}
@@ -24,9 +23,18 @@ export default function Outreach() {
             most renowned control theory guide for FTC teams, and beyond!
           </p>
         </OutreachStat>
-        <OutreachStat className="from-yellow-400 to-orange-600"></OutreachStat>
-        <OutreachStat className="from-blue-400 to-indigo-600"></OutreachStat>
-        <OutreachStat className="from-green-400 to-blue-600"></OutreachStat>
+        <OutreachStat className="from-yellow-400 to-orange-600 text-xl p-5">
+          More information coming soon!
+          {/* TODO: Add a stat here */}
+        </OutreachStat>
+        <OutreachStat className="from-blue-400 to-indigo-600 text-xl p-5">
+          More information coming soon!
+          {/* TODO: Add a stat here */}
+        </OutreachStat>
+        <OutreachStat className="from-green-400 to-blue-600 text-xl p-5">
+          More information coming soon!
+          {/* TODO: Add a stat here */}
+        </OutreachStat>
       </div>
     </Wrapper>
   );

@@ -18,9 +18,6 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Response>
 ) {
-  // TODO: implement discord webhook
-  // TODO: implement env variable
-
   if (req.method !== "POST") {
     res
       .status(405)

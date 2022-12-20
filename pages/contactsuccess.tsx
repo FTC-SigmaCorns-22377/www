@@ -7,7 +7,6 @@ export default function ContactSuccess() {
   return (
     <Wrapper>
       <Title text="Contact Us" />
-      {/* TODO: add contact form */}
 
       <motion.div
         className="bg-base container mx-auto p-10 mt-10 rounded-lg"
