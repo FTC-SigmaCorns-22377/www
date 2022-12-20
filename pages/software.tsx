@@ -14,24 +14,21 @@ export default function Software() {
       <div className="flex flex-col-reverse md:grid md:grid-cols-2 mt-10 p-10 gap-10">
         <motion.section className="text-2xl" {...slidedown}>
           {/* TODO: get software member to right blurb */}
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-          ornare vulputate velit eu lobortis. Nunc ornare rutrum ex at
-          ultricies. In non elit euismod, mollis velit vel, imperdiet odio. Sed
-          vel porttitor nisi. In hac habitasse platea dictumst. Nullam et enim
-          nec ipsum finibus tempus sed et lectus. Vivamus vel pharetra velit.
-          Aliquam egestas cursus quam vel fringilla. Vivamus eu imperdiet
-          turpis. Phasellus egestas elit condimentum risus ultricies porta.
-          Curabitur aliquam arcu non lacus feugiat blandit. Sed id placerat
-          velit. Aenean sodales mi non erat volutpat ornare. Etiam turpis nisl,
-          luctus sed dictum quis, consequat eu elit.
+          Our software team develops the software that controls the robot. The
+          software controls every aspect of the robot, ranging from the very low
+          level, at which state estimation algorithms are implemented so that
+          our robot knows its state, and control systems are synthesized to
+          accurately track references to achieve desired behavior. At a higher
+          level, the software plans out the robots motion and mechanism use
+          during autonomous, and processes the driver input during teleop to
+          actuate the robot’s mechanisms in the desired manner.
         </motion.section>
         <motion.section>
           <motion.h2 {...slidedown} className="text-center text-3xl">
             Our repos:
           </motion.h2>
-          <Repo url="https://github.com/FTC-SigmaCorns-22377/roadrunner/" />
-          <Repo url="https://github.com/FTC-SigmaCorns-22377/www/" />
-          <Repo url="https://github.com/FTC-SigmaCorns-22377/homeostatis/" />
+          <Repo url="https://github.com/FTC-SigmaCorns-22377/road-runner-quickstart" />
+          <Repo url="https://github.com/FTC-SigmaCorns-22377/www" />
         </motion.section>
       </div>
     </Wrapper>
