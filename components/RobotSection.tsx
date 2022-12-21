@@ -2,7 +2,8 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { useRef } from "react";
+import { useEffect, useState } from "react";
+import { isSafari } from "react-device-detect";
 
 import r0000 from "../public/media/robot_animation/0000.png";
 import r0001 from "../public/media/robot_animation/0001.png";
@@ -209,7 +210,7 @@ const images = [
   r0098,
   r0099,
   r0100,
-];
+].reverse();
 
 interface RobotSectionProps {
   value: number;
@@ -222,17 +223,35 @@ export default function RobotSection({ value }: RobotSectionProps) {
   const index = Math.floor(value * (images.length - 1));
   // get the image to display
   console.log(index);
+  const [safari, setSafari] = useState("undefined");
+  useEffect(() => {
+    if (isSafari) {
+      setSafari("true");
+    } else {
+      setSafari("false");
+    }
+  }, []);
+
   return (
     <motion.section
       {...slidedown}
       id="robot"
       className="sticky top-20 pt-5 md:pt-0 z-10"
     >
-      {images.map((image, i) => (
-        <div key={i} className={index === i ? "block" : "hidden"}>
-          <Image src={image} alt="robot" loading="eager" />
-        </div>
-      ))}
+      {safari === "true" && (
+        <Image
+          src="/media/robot_animation/looping2.gif"
+          alt="Spinning robot"
+          width={1920}
+          height={1080}
+        />
+      )}
+      {safari === "false" &&
+        images.map((image, i) => (
+          <div key={i} className={index === i ? "block" : "hidden"}>
+            <Image src={image} alt="robot" loading="eager" />
+          </div>
+        ))}
     </motion.section>
   );
 }
