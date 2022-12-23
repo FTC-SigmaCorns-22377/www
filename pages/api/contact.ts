@@ -22,6 +22,7 @@ export default function handler(
     res
       .status(405)
       .json({ error: "Only POST requests allowed", success: false });
+    console.log("Only POST requests allowed");
     return;
   }
 
@@ -29,10 +30,16 @@ export default function handler(
     !isValidBody<Request>(req.body, ["name", "discordID", "email", "message"])
   ) {
     res.status(400).json({ error: "Invalid body", success: false });
+    console.log("Invalid body");
     return;
   }
+  console.log("Valid body");
 
   const { name, discordID, email, message } = req.body;
+  console.log("Name: ", name);
+  console.log("Discord ID: ", discordID);
+  console.log("Email: ", email);
+  console.log("Message: ", message);
 
   const hook = new Webhook(process.env.WEBHOOK_URL);
   const embed = new MessageBuilder()
