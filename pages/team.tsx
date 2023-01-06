@@ -103,7 +103,7 @@ export default function Team() {
       name: "Worth Byers",
       blurb: "I drink Dr. Pepper and code.",
       image: worthbyers,
-      roles: [software],
+      roles: [software, mechanical_building],
     },
     {
       name: "Ivan Zheng",
