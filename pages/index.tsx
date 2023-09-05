@@ -53,13 +53,13 @@ export default function Home() {
       <RobotSection value={value} />
       <section className="h-screen p-10 text-black flex flex-col justify-between">
         <Statistic className="bg-green-400 md:mr-auto">
-          Established December, 2022
+          Established August 2022
         </Statistic>
         <Statistic className="bg-red-400 md:ml-auto">
-          At least $5 in funding
+          Over $5000 in miscallaneous funding!
         </Statistic>
         <Statistic className="bg-purple-400 md:mr-auto">
-          3+ members i think!
+          9 members from across NC!
         </Statistic>
       </section>
     </Wrapper>
