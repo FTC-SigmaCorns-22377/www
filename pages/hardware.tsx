@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import CoolLink from "../components/CoolLink";
 import Title from "../components/Title";
 import Wrapper from "../components/Wrapper";
 import { slidedown } from "../utils/motionPresets";
@@ -14,17 +15,17 @@ export default function Hardware() {
           robot, we need an efficient design process. This starts with
           prototyping and brainstorming ideas, as well as taking inspiration
           from robots of previous seasons and the current one. To implement
-          these ideas we use CAD, which allows us to quickly iterate
-          sophisticated mechanisms using COTS, 3D printed, and laser-cut parts.
+          these ideas, we use computer aided design, which allows us to quickly iterate
+          sophisticated mechanisms using commercial off-the-shelf, 3D printed, and laser-cut parts.
           Finally, we physically assemble the parts and wire the robot
           effectively.
         </motion.section>
         <motion.section>
           <motion.h2 {...slidedown} className="text-center text-3xl">
-            Our CAD:
+            Our PowerPlay Robot: 
           </motion.h2>
           <motion.div {...slidedown} className="text-center">
-            Coming soon!
+            <CoolLink text = "FTC 22377 Robot Reveal - YouTube" href = "https://www.youtube.com/watch?v=CXADOv_EKW4&t=11s" />
           </motion.div>
         </motion.section>
       </div>

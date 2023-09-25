@@ -10,7 +10,7 @@ export default function Outreach() {
       <Title text="Outreach" />
       <div className="grid md:grid-cols-4 gap-5 md:gap-10 m-10">
         <OutreachStat className="col-span-2 row-span-2 from-green-400 to-blue-600 p-10">
-          <h1 className="text-3xl md:text-5xl lg:text-8xl">50,000+</h1>
+          <h1 className="text-3xl md:text-5xl lg:text-8xl">100,000+</h1>
           <h2 className="text-2xl lg:text-4xl">
             individuals reached and inspired from around our state, country and
             the globe!
@@ -19,20 +19,28 @@ export default function Outreach() {
         <OutreachStat className="from-pink-400 to-purple-600 text-xl p-5">
           <p>
             We maintain{" "}
-            <CoolLink text="Ctrl Alt FTC" href="https://ctrlaltftc.org" />, the
+            <CoolLink text="Ctrl Alt FTC" href="https://ctrlaltftc.com" />, the
             most renowned control theory guide for FTC teams, and beyond!
           </p>
         </OutreachStat>
         <OutreachStat className="from-yellow-400 to-orange-600 text-xl p-5">
-          More information coming soon!
+          <p>We created <CoolLink text="FOSTER" href="https://foster.sigmacorns.org" />, an AI powered virtual mentor created for FIRST teams</p>
+
           {/* TODO: Add a stat here */}
         </OutreachStat>
         <OutreachStat className="from-blue-400 to-indigo-600 text-xl p-5">
-          More information coming soon!
+          <p>To be updated!</p>
+          <p>
+            {/*<CoolLink text="NC FTC Presentation Kick-off" href="https://docs.google.com/presentation/d/1WhyvTwzY18k0Guhmij6pUPpvmrq0uYPdi8Hqed2qJwg/edit?usp=drive_link" />*/}
+            {/*<CoolLink text=" - Advanced Control Theory" href="https://docs.google.com/presentation/d/1WhyvTwzY18k0Guhmij6pUPpvmrq0uYPdi8Hqed2qJwg/edit?usp=drive_link" />*/}
+          </p>
+          {/*TODO: find a way to wrap the coollink text */}
+          
           {/* TODO: Add a stat here */}
         </OutreachStat>
         <OutreachStat className="from-green-400 to-blue-600 text-xl p-5">
-          More information coming soon!
+            Outreach events - robot demos, STEM activities, community engagement activities, FLL mentoring
+
           {/* TODO: Add a stat here */}
         </OutreachStat>
       </div>

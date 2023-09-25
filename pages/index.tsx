@@ -38,15 +38,31 @@ export default function Home() {
             {...slidedown}
             className="w-full mx-auto relative h-24 mb-3"
           >
-            <Image
-              src="/branding/sigmacorntext.svg"
-              alt="Sigmacorns"
-              fill
-              className="w-full h-auto px-5"
-            />
+          <Image
+            src="/branding/sigmacorntext.svg"
+            alt="Sigmacorns"
+            fill
+            className="w-full h-auto px-5"
+          />
           </motion.div>
           <motion.h3 {...slidedown} className="font-light md:text-3xl">
             NCSSM • FTC Team #22377
+
+          </motion.h3>
+          <motion.h3 {...slidedown} className="font-light md:text-3xl p-10">
+            • Mission Statement •
+          </motion.h3>
+          <motion.h3 {...slidedown} className="font-light md:text-3xl p-10">
+            “As a team of students from across North Carolina, we come 
+            together to construct a competitive robot, fostering teamwork 
+            and drawing inspiration from industry professionals. 
+            By integrating their invaluable expertise, 
+            we cultivate essential skills that mold our team members 
+            into prospective STEM professionals. 
+            In partnership with our community, 
+            we embark on a journey of innovation and dedication, 
+            aspiring to ignite the passions of the next generation of STEM leaders, 
+            fostering a brighter future for all.”
           </motion.h3>
         </div>
       </section>
@@ -56,10 +72,10 @@ export default function Home() {
           Established August 2022
         </Statistic>
         <Statistic className="bg-red-400 md:ml-auto">
-          Over $5000 in miscallaneous funding!
+          Chicago Robotics Invitational Finalists
         </Statistic>
         <Statistic className="bg-purple-400 md:mr-auto">
-          9 members from across NC!
+          15 members from across NC!
         </Statistic>
       </section>
     </Wrapper>
