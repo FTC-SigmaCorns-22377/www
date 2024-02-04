@@ -25,24 +25,26 @@ export default function Outreach() {
         </OutreachStat>
         <OutreachStat className="from-yellow-400 to-orange-600 text-xl p-5">
           <p>We created <CoolLink text="FOSTER" href="https://foster.sigmacorns.org" />, an AI powered virtual mentor created for FIRST teams</p>
-
+          FOSTER has received 3670 API Request
           {/* TODO: Add a stat here */}
         </OutreachStat>
-        <OutreachStat className="from-blue-400 to-indigo-600 text-xl p-5">
-          <p>To be updated!</p>
+        <OutreachStat className="from-red-400 to-pink-600 text-xl p-5">
+          <p>We presented topics of <CoolLink text="Advanced Control Theory" href="https://docs.google.com/presentation/d/1WhyvTwzY18k0Guhmij6pUPpvmrq0uYPdi8Hqed2qJwg/edit?usp=drive_link" />, 
+          Functional Programming, and FOSTER to FTC Community </p>
           <p>
             {/*<CoolLink text="NC FTC Presentation Kick-off" href="https://docs.google.com/presentation/d/1WhyvTwzY18k0Guhmij6pUPpvmrq0uYPdi8Hqed2qJwg/edit?usp=drive_link" />*/}
             {/*<CoolLink text=" - Advanced Control Theory" href="https://docs.google.com/presentation/d/1WhyvTwzY18k0Guhmij6pUPpvmrq0uYPdi8Hqed2qJwg/edit?usp=drive_link" />*/}
           </p>
-          {/*TODO: find a way to wrap the coollink text */}
-          
-          {/* TODO: Add a stat here */}
-        </OutreachStat>
-        <OutreachStat className="from-green-400 to-blue-600 text-xl p-5">
-            Outreach events - robot demos, STEM activities, community engagement activities, FLL mentoring
+          {/*TODO: find a way to wrap the coollink text - DONE; changed the coollink function */}
 
           {/* TODO: Add a stat here */}
         </OutreachStat>
+        <OutreachStat className="from-indigo-400 to-blue-600 text-xl p-5">
+            Outreach events - robot demos, STEM activities, community engagement activities, FLL mentoring.
+            Impacted 150+ children in our community this season.
+          {/* TODO: Add a stat here */}
+        </OutreachStat>
+        
       </div>
     </Wrapper>
   );

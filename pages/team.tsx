@@ -5,111 +5,129 @@ import { slideup, stagger } from "../utils/motionPresets";
 import Wrapper from "../components/Wrapper";
 
 import bencaunt from "../public/media/team/bencaunt.png";
-import ayushpaul from "../public/media/team/ayushpaul.jpg";
-import matthewlee from "../public/media/team/matthewlee.png";
-import sheerabdhiniranjan from "../public/media/team/sheerabdhiniranjan.png";
-import shivagoli from "../public/media/team/shivagoli.png";
-import josephwan from "../public/media/team/josephwan.png";
-import worthbyers from "../public/media/team/worthbyers.png";
-import ivanzheng from "../public/media/team/ivanzheng.png";
+// import ayushpaul from "../public/media/2324team/ayush.jpg";
+// import achyuta from "../public/media/2324team/achyuta.jpg";
+// import anirudh from "../public/media/2324team/ani.jpg";
+// import caroleen from "../public/media/2324team/caroleen.jpg";
+// import isabel from "../public/media/2324team/isabel.jpg";
+// import joseph from "../public/media/2324team/joseph.jpg";
+// import june from "../public/media/2324team/june.jpg";
+// import lola from "../public/media/2324team/lola.jpg";
+// import may from "../public/media/2324team/may.jpg";
+// import nikhil from "../public/media/2324team/nikhil.jpg";
+// import suth from "../public/media/2324team/sutharsika.jpg";
+// import taylor from "../public/media/2324team/taylor.jpg";
 
 export default function Team() {
-  const captain: RoleProps = {
-    role: "Captain",
-    color: "bg-red-500",
-  };
-
-  const software: RoleProps = {
-    role: "Software",
+  const mechanical: RoleProps = {
+    role: "Mechanical",
     color: "bg-purple-400",
   };
 
-  const mechanical_building: RoleProps = {
-    role: "Mechanical: Building",
+  const programming: RoleProps = {
+    role: "Programming",
     color: "bg-green-500",
   };
 
-  const mechanical_CAD: RoleProps = {
-    role: "Mechanical: CAD",
-    color: "bg-green-400",
-  };
-
-  const ctrlalt: RoleProps = {
-    role: "⌘ Alt FTC",
+  const nontechnical: RoleProps = {
+    role: "Non-technical",
     color: "bg-pink-400",
   };
 
-  const outreach: RoleProps = {
-    role: "Outreach",
-    color: "bg-yellow-400",
-  };
-
-  const webmaster: RoleProps = {
-    role: "Webmaster",
-    color: "bg-blue-400",
-  };
 
   // TODO: get someone to add team members
 
   const members: TeamMemberProps[] = [
+    // {
+    //   name: "Ben Caunt",
+    //   blurb:
+    //     "Hey everyone! I am ben the world’s dean list person so i am very cool and very good at programming or something!",
+    //   image: bencaunt,
+    //   roles: [captain, software, hardware, ctrlalt],
+    // },
     {
-      name: "Ben Caunt",
-      blurb: "I kinda know how to build a robot",
-      image: bencaunt,
-      roles: [
-        captain,
-        software,
-        ctrlalt,
-        outreach,
-        mechanical_building,
-        mechanical_CAD,
-      ],
+      name: "Achyuta",
+      blurb: "",
+      image: "",
+      roles: [mechanical],
     },
     {
-      name: "Ayush Paul",
-      blurb:
-        "This is my 3rd year doing FTC and I am excited to be a part of the team!",
-      image: ayushpaul,
-      roles: [software, mechanical_CAD, outreach, ctrlalt, webmaster],
+      name: "Ayush",
+      blurb: "",
+      image: "",
+      roles: [programming],
     },
     {
-      name: "Matthew Lee",
-      blurb:
-        "I am new to FIRST and am looking forward to learning more about robotics and helping out with the software side of things using the programming knowledge that I have now.",
-      image: matthewlee,
-      roles: [software],
+      name: "Joseph",
+      blurb: "",
+      image: "",
+      roles: [mechanical],
     },
     {
-      name: "Sheerabdhi Niranjan",
-      blurb:
-        "I am Sheerabdhi Niranjan, and this is my second year doing FTC! Although my role on this team is primarily a programmer, I have expanded to learn about new aspects of the robotics process, such as CAD, mechanics, and design, and have found this journey to be very intriguing and rewarding.",
-      image: sheerabdhiniranjan,
-      roles: [software, outreach, mechanical_building],
+      name: "May",
+      blurb: "",
+      image: "",
+      roles: [programming],
     },
     {
-      name: "Shiva Goli",
-      blurb:
-        "I am Shiva, a junior at NCSSM who programs and helps with building.",
-      image: shivagoli,
-      roles: [software, mechanical_building],
+      name: "Sutharsika",
+      blurb: "",
+      image: "",
+      roles: [nontechnical],
     },
     {
-      name: "Joseph Wan",
-      blurb: "I make robots and watch sports.",
-      image: josephwan,
-      roles: [captain, outreach, mechanical_building, mechanical_CAD],
+      name: "Anirudh",
+      blurb: "",
+      image: "",
+      roles: [mechanical],
     },
     {
-      name: "Worth Byers",
-      blurb: "I drink Dr. Pepper and code.",
-      image: worthbyers,
-      roles: [software, mechanical_building],
+      name: "Caroleen", 
+      blurb: "",
+      image: "",
+      roles: [nontechnical],
     },
     {
-      name: "Ivan Zheng",
-      blurb: "Hi. I am Ivan. I like building and designing stuff. ",
-      image: ivanzheng,
-      roles: [mechanical_building, mechanical_CAD],
+      name: "Isabel",
+      blurb: "",
+      image: "",
+      roles: [mechanical],
+    },
+    {
+      name: "June",
+      blurb: "",
+      image: "",
+      roles: [mechanical],
+    },
+    {
+      name: "Lola",
+      blurb: "",
+      image: "",
+      roles: [nontechnical],
+    },
+    {
+      name: "Nikhil",
+      blurb: "",
+      image: "",
+      roles: [mechanical],
+    },
+    {
+      name: "Taylor",
+      blurb: "",
+      image: "",
+      roles: [programming],
+    },
+    {
+      name: "Jason",
+      blurb: "",
+      image: "",
+      roles: [programming],
+    },
+    {
+      name: "Jane",
+      blurb: "",
+      image: "",
+      roles: [nontechnical],
     },
   ];
 
@@ -165,7 +183,7 @@ function TeamMember({ image, name, blurb, roles }: TeamMemberProps) {
             @{name.toLowerCase().replace(" ", "")}
           </h2>
           <p className="text-xl my-3">{blurb}</p>
-          <div className="text-left pt-3 flex flex-row flex-wrap">
+          <div className="text-center pt-3 flex flex-row flex-wrap justify-center">
             {roles.map((role) => Role(role))}
           </div>
         </div>
