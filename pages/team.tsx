@@ -49,7 +49,7 @@ export default function Team() {
     // },
     {
       name: "Achyuta",
-      blurb: "In a serene meadow, blossoms sway harmoniously, enveloped in ethereal beauty, captivating the soul in blissful reverie. hello hello hello ",
+      blurb: "Achyuta is a senior at NCSSM, from Cary, NC. Prior to the SigmaCorns he was on team 16447 Mechanical Maniacs, and team 20434 Binding Energy. This is his 5th year in FTC, mainly working on the mechanical aspects of the robot. As the driver, he enjoys watching and making the robot move.",
       image: achyuta,
       roles: [mechanical],
     },
@@ -85,7 +85,7 @@ export default function Team() {
     },
     {
       name: "Jane",
-      blurb: "Jane is a senior at North Carolina School of Science and Mathematics who is from Cary, North Carolina. She loves art and mathematics. This is her first year joining FTC. She is excited to participate in the outreach and marketing team of Sigmacorns. ",
+      blurb: "Jane is a senior at North Carolina School of Science and Mathematics who is from Cary, North Carolina. This is her first year joining FTC. She is excited to participate in the outreach by making impact to STEM community and marketing team of Sigmacorns.",
       image: jane,
       roles: [nontechnical],
     },
@@ -109,13 +109,13 @@ export default function Team() {
     },
     {
       name: "June",
-      blurb: "",
+      blurb: "June is from Cary, North Carolina, and this is her first on SigmaCorns and 3rd year doing FTC. On the team she works on designing, assembling, and testing mechanisms, and she's looking forward to continuing to learn all she can. Off the team she enjoys photography, reading, and hanging out with friends. ",
       image: june,
       roles: [mechanical],
     },
     {
       name: "Lola",
-      blurb: "",
+      blurb: "Lola is a junior originally from Winston Salem, NC but currently studying at the NCSSM. This is Lola’s 3rd year participating on an FTC team. She focuses on designing the portfolio, making presentations, and coordinating community outreach. Lola has loved the energy and passion for FIRST that all the members of the team share and she can’t wait to see what progress SigmaCorns makes this year. ",
       image: lola,
       roles: [nontechnical],
     },
