@@ -47,23 +47,7 @@ export default function Home() {
           </motion.div>
           <motion.h3 {...slidedown} className="font-light md:text-3xl">
             NCSSM • FTC Team #22377
-
-          </motion.h3>
-          <motion.h3 {...slidedown} className="font-light md:text-3xl p-10">
-            • Mission Statement •
-          </motion.h3>
-          <motion.h3 {...slidedown} className="font-light md:text-3xl p-10">
-            “As a team of students from across North Carolina, we come 
-            together to construct a competitive robot, fostering teamwork 
-            and drawing inspiration from industry professionals. 
-            By integrating their invaluable expertise, 
-            we cultivate essential skills that mold our team members 
-            into prospective STEM professionals. 
-            In partnership with our community, 
-            we embark on a journey of innovation and dedication, 
-            aspiring to ignite the passions of the next generation of STEM leaders, 
-            fostering a brighter future for all.”
-          </motion.h3>
+            </motion.h3>
         </div>
       </section>
       <RobotSection value={value} />
@@ -78,6 +62,7 @@ export default function Home() {
           15 members from across NC!
         </Statistic>
       </section>
+
     </Wrapper>
   );
 }
