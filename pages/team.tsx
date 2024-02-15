@@ -19,6 +19,7 @@ import suth from "../public/media/abc/suth.png";
 import taylor from "../public/media/abc/taylor.png";
 import jane from "../public/media/abc/jane.png";
 import jason from "../public/media/abc/jason.png";
+import olive from "../public/media/abc/olive.png";
 
 export default function Team() {
   const mechanical: RoleProps = {
@@ -79,14 +80,14 @@ export default function Team() {
     },
     {
       name: "Jane",
-      blurb: "Jane is a senior at North Carolina School of Science and Mathematics who is from Cary, North Carolina. This is her first year joining FTC. She participates in outreach by making impact to STEM community and in the marketing team of Sigmacorns through her skills for Graphic Design.",
+      blurb: "Jane is a senior at NCSSM who is from Cary, North Carolina. This is her first year joining FTC. She participates in outreach by making impact to STEM community and in the marketing team of Sigmacorns through her skills for Graphic Design.",
       image: jane,
       roles: [nontechnical],
     },
     {
       name: "Olive",
       blurb: "Olive is a senior from Wake Forest who is interested in software and controls applications in robotics. She got into robotics from FLL and has also experience with FRC. On the team, she helps out with software as well as making custom parts for the robot in the FabLab.",
-      image: "",
+      image: olive,
       roles: [programming],
     },
     {
@@ -97,13 +98,13 @@ export default function Team() {
     },
     {
       name: "Caroleen", 
-      blurb: "Caroleen is a junior at Durham Technical Middle College Highschool and is from Durham, North Carolina. This is Caroleen's 5th year on an FTC team. As the project manager Caroleen keeps track of all the moving parts, ensuring everyone has what they need. She focuses on building connections with industry professionals, designing the portfolio and presentations, while helping outreach events.",
+      blurb: "Caroleen is a junior at Durham Technical Middle College Highschool and is from Durham, North Carolina. This is Caroleen's 5th year on an FTC team. As the project manager Caroleen keeps track of all the moving parts, ensuring everyone has what they need.",
       image: caroleen,
       roles: [nontechnical],
     },
     {
       name: "Isabel",
-      blurb: "",
+      blurb: "Isabel is a Junior at NCSSM and has been apart of FIRST for 6 years. She did FLL for 4 years then did FTC for 3 years. She is a member of the mechanical sub group on team 22377 Sigma Corns. She looks forward to expanding her knowledge is all aspects of robotics.  ",
       image: isabel,
       roles: [mechanical],
     },
@@ -115,13 +116,13 @@ export default function Team() {
     },
     {
       name: "Lola",
-      blurb: "Lola is a junior originally from Winston Salem, NC but currently studying at the NCSSM. This is Lola’s 3rd year participating on an FTC team. She focuses on designing the portfolio, making presentations, and coordinating community outreach. Lola has loved the energy and passion for FIRST that all the members of the team share and she can’t wait to see what progress SigmaCorns makes this year. ",
+      blurb: "Lola is a junior originally from Winston Salem, NC but currently studying at the NCSSM. This is Lola’s 3rd year participating on an FTC team. Lola has loved the energy and passion for FIRST that all the members of the team share and she can’t wait to see what progress SigmaCorns makes this year. ",
       image: lola,
       roles: [nontechnical],
     },
     {
       name: "Nikhil",
-      blurb: "",
+      blurb: "Nikhil is a junior at NCSSM, from Cary, North Carolina. He has been a part of FIRST since 5th grade, participating every year since then, with 4 years of FTC experience. He loves to work with code, and enjoys learning about and implementing control theory techniques.",
       image: nikhil,
       roles: [mechanical],
     },
