@@ -30,7 +30,7 @@ export default function Outreach() {
         </OutreachStat>
         <OutreachStat className="from-red-400 to-pink-600 text-xl p-5">
           <p>We presented topics of <CoolLink text="Advanced Control Theory" href="https://docs.google.com/presentation/d/1WhyvTwzY18k0Guhmij6pUPpvmrq0uYPdi8Hqed2qJwg/edit?usp=drive_link" />, 
-          Functional Programming, and FOSTER to FTC Community </p>
+          Statistical Analysis, Team Sustainability, and FTC Simulations at the World Championship, Chicago Robotics Invotational, and the NC FTC Kickoff! </p>
           <p>
             {/*<CoolLink text="NC FTC Presentation Kick-off" href="https://docs.google.com/presentation/d/1WhyvTwzY18k0Guhmij6pUPpvmrq0uYPdi8Hqed2qJwg/edit?usp=drive_link" />*/}
             {/*<CoolLink text=" - Advanced Control Theory" href="https://docs.google.com/presentation/d/1WhyvTwzY18k0Guhmij6pUPpvmrq0uYPdi8Hqed2qJwg/edit?usp=drive_link" />*/}
