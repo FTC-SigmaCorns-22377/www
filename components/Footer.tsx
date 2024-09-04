@@ -13,9 +13,22 @@ export default function Footer() {
     <footer className="p-4 sm:p-6 bg-base ">
       <div className="md:flex md:justify-between">
         <div className="mb-6 md:mb-0">
-          <Link href="/" className="flex items-center">
-            <Image src={sigmacorntext} alt="Sigmacorns" height={50} />
-          </Link>
+          <div className="flex flex-col items-start gap-2">
+            <Link href="/">
+              <Image src={sigmacorntext} alt="Sigmacorns" height={50} />
+            </Link>
+            <Link
+              href="https://vercel.com?utm_source=sigmacorns&utm_campaign=oss"
+              className="flex items-center"
+            >
+              <Image
+                src="/branding/external/powered_by_vercel.svg"
+                alt="Powered by Vercel"
+                width={212}
+                height={44}
+              />
+            </Link>
+          </div>
         </div>
         <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
           {/* TODO: add resources */}

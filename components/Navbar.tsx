@@ -23,7 +23,7 @@ export default function Navbar() {
       href: "/",
     },
     {
-      text: "Team",
+      text: "About",
       href: "/team",
     },
     {

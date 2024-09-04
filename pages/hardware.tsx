@@ -1,9 +1,14 @@
 import { motion } from "framer-motion";
+import CoolLink from "../components/CoolLink";
 import Title from "../components/Title";
 import Wrapper from "../components/Wrapper";
 import { slidedown } from "../utils/motionPresets";
 
 export default function Hardware() {
+
+  const videoId = "ro";
+  const embedUrl = "https://www.youtube.com/watch?v=CXADOv_EKW4&t=11s";
+
   return (
     <Wrapper>
       <Title text="Hardware" />
@@ -21,10 +26,22 @@ export default function Hardware() {
         </motion.section>
         <motion.section>
           <motion.h2 {...slidedown} className="text-center text-3xl">
-            Our CAD:
+            Our PowerPlay Robot: 
           </motion.h2>
           <motion.div {...slidedown} className="text-center">
-            Coming soon!
+            <CoolLink text = "FTC 22377 Robot Reveal - YouTube" href = "https://www.youtube.com/watch?v=CXADOv_EKW4&t=11s" />
+          </motion.div>
+          <motion.div {...slidedown} style={{ display: 'flex', justifyContent: 'center' }}>
+            {/* Embed YouTube Video */}
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/CXADOv_EKW4?si=eZyHuUnLYOaIQq5R"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
           </motion.div>
         </motion.section>
       </div>

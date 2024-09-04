@@ -12,7 +12,6 @@ export default function Layout({ children }: LayoutProps) {
   return (
     <>
       <div className="min-h-screen bg-black text-white relative">
-        <PrivacyScreen />
         <Navbar />
         <main>{children}</main>
         <Footer />

@@ -38,30 +38,31 @@ export default function Home() {
             {...slidedown}
             className="w-full mx-auto relative h-24 mb-3"
           >
-            <Image
-              src="/branding/sigmacorntext.svg"
-              alt="Sigmacorns"
-              fill
-              className="w-full h-auto px-5"
-            />
+          <Image
+            src="/branding/sigmacorntext.svg"
+            alt="Sigmacorns"
+            fill
+            className="w-full h-auto px-5"
+          />
           </motion.div>
           <motion.h3 {...slidedown} className="font-light md:text-3xl">
             NCSSM • FTC Team #22377
-          </motion.h3>
+            </motion.h3>
         </div>
       </section>
       <RobotSection value={value} />
       <section className="h-screen p-10 text-black flex flex-col justify-between">
         <Statistic className="bg-green-400 md:mr-auto">
-          Established December, 2022
+          Established August 2022
         </Statistic>
         <Statistic className="bg-red-400 md:ml-auto">
-          At least $5 in funding
+          Chicago Robotics Invitational Finalists
         </Statistic>
         <Statistic className="bg-purple-400 md:mr-auto">
-          3+ members i think!
+          15 members from across NC!
         </Statistic>
       </section>
+
     </Wrapper>
   );
 }
