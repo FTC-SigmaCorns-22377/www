@@ -13,14 +13,10 @@ export default function Software() {
       <Title text="Software" />
       <div className="flex flex-col-reverse md:grid md:grid-cols-2 mt-10 p-10 gap-10">
         <motion.section className="text-2xl" {...slidedown}>
-          Our software team develops the software that controls the robot. The
-          software controls every aspect of the robot, ranging from the very low
-          level, at which state estimation algorithms are implemented so that
-          our robot knows its state, and control systems are synthesized to
-          accurately track references to achieve desired behavior. At a higher
-          level, the software plans out the robots motion and mechanism use
-          during autonomous, and processes the driver input during teleop to
-          actuate the robot’s mechanisms in the desired manner.
+          Our software team works together to code a fully functioning robot. 
+          Our goal is to design code that is adabtable to various situation that 
+          may be faced on the field. 
+          
         </motion.section>
         <motion.section>
           <motion.h2 {...slidedown} className="text-center text-3xl">

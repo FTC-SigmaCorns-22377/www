@@ -9,11 +9,11 @@ export default function Hardware() {
       <Title text="Hardware" />
       <div className="flex flex-col-reverse md:grid md:grid-cols-2 mt-10 p-10 gap-10">
         <motion.section className="text-2xl" {...slidedown}>
-          Our job is to make a robust and consistent robot that has the
-          capabilities to consistently win matches. To be able to design such a
+        Our job is to make a robust and consistent robot that has the
+          capabilities to win matches. To design such a
           robot, we need an efficient design process. This starts with
           prototyping and brainstorming ideas, as well as taking inspiration
-          from robots of previous seasons and the current one. To implement
+          from robots of previous seasons and the current ones. To implement
           these ideas we use CAD, which allows us to quickly iterate
           sophisticated mechanisms using COTS, 3D printed, and laser-cut parts.
           Finally, we physically assemble the parts and wire the robot
