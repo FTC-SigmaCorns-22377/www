@@ -56,10 +56,10 @@ export default function Home() {
           Established August 2022
         </Statistic>
         <Statistic className="bg-[#949CE0] md:ml-auto">
-           Based out of the North Carolina School of Science and Math in Durham
+           Based at the North Carolina School of Science and Mathematics in Durham, NC
         </Statistic>
         <Statistic className="bg-[#FFA9B5] md:mr-auto">
-          15 members from across NC!
+          15 members from across NC
         </Statistic>
 
       </section>
