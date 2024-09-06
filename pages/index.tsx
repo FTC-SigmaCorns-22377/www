@@ -56,7 +56,7 @@ export default function Home() {
           Established August 2022
         </Statistic>
         <Statistic className="bg-red-400 md:ml-auto">
-          Chicago Robotics Invitational Finalists
+          Based out of the North Carolina School of Science and Math in Durham
         </Statistic>
         <Statistic className="bg-purple-400 md:mr-auto">
           15 members from across NC!

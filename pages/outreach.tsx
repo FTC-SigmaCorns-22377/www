@@ -24,7 +24,7 @@ export default function Outreach() {
           </p>
         </OutreachStat>
         <OutreachStat className="from-yellow-400 to-orange-600 text-xl p-5">
-          <p>We created <CoolLink text="FOSTER" href="https://foster.sigmacorns.org" />, an AI powered virtual mentor created for FIRST teams</p>
+          <p>We have reached over 175k people through creative and informational posts on our instagram, @ftc22377!</p>
           FOSTER has received 3670 API Request
           {/* TODO: Add a stat here */}
         </OutreachStat>
