@@ -20,6 +20,7 @@ import taylor from "../public/media/abc/taylor.png";
 //import jane from "../public/media/abc/jane.png";
 import jason from "../public/media/abc/jason.png";
 //import olive from "../public/media/abc/olive.png";
+import sigma from "../public/media/abc/sigma.png"
 
 export default function Team() {
   const mechanical: RoleProps = {
@@ -113,21 +114,21 @@ export default function Team() {
     {
       name: "Isabel",
       blurb:
-        "Isabel is a Junior at NCSSM and has been apart of FIRST for 6 years. She did FLL for 4 years then did FTC for 3 years. She is a member of the mechanical sub group on team 22377 Sigma Corns. She looks forward to expanding her knowledge is all aspects of robotics.  ",
+        "Isabel is a Senior at NCSSM and has been apart of FIRST for 7 years. She did FLL for 4 years then did FTC for 3 years. She is a member of the mechanical sub group on team 22377 Sigma Corns. She looks forward to expanding her knowledge is all aspects of robotics.  ",
       image: isabel,
       roles: [mechanical],
     },
     {
       name: "June",
       blurb:
-        "June is from Cary, North Carolina, and this is her first on SigmaCorns and 3rd year doing FTC. On the team she works on designing, assembling, and testing mechanisms, and she's looking forward to continuing to learn all she can. Off the team she enjoys photography, reading, and hanging out with friends. ",
+        "June is from Cary, North Carolina, and this is her second year on SigmaCorns and 4th year doing FTC. On the team she works on designing, assembling, and testing mechanisms, and she's looking forward to continuing to learn all she can. Off the team she enjoys photography, reading, and hanging out with friends. ",
       image: june,
       roles: [mechanical],
     },
     {
       name: "Lola",
       blurb:
-        "Lola is a junior originally from Winston Salem, NC but currently studying at the NCSSM. This is Lola’s 3rd year participating on an FTC team. Lola has loved the energy and passion for FIRST that all the members of the team share and she can’t wait to see what progress SigmaCorns makes this year. ",
+        "Lola is a Senior originally from Winston Salem, NC but currently studying at the NCSSM. This is Lola’s 4th year participating on an FTC team. Lola has loved the energy and passion for FIRST that all the members of the team share and she can’t wait to see what progress SigmaCorns makes this year. ",
       image: lola,
       roles: [nontechnical],
     },
@@ -141,16 +142,86 @@ export default function Team() {
     {
       name: "Taylor",
       blurb:
-        "Taylor is a Junior at NCSSM where she focuses on computer science. She is originally from Western North Carolina and will be doing FTC for the first time this year. She is very excited to learn all about FTC and what it can do to impact communities around the Durham area!",
+        "Taylor is a Senior at NCSSM where she focuses on computer science. She is originally from Western North Carolina and will be doing FTC for the second time this year. She is very excited to learn all about FTC and what it can do to impact communities around the Durham area!",
       image: taylor,
       roles: [programming],
     },
     {
       name: "Jason",
       blurb:
-        "Jason is a homeschooled eighth grader from Durham. This is his first year participating in FIRST, and he is excited to apply his math background to robotics. In his free time, he enjoys composing music, writing purple prose, and crafting original problems for his math contests.",
+        "Jason is a homeschooled ninth grader from Durham. This is his second year participating in FIRST, and he is excited to apply his math background to robotics. In his free time, he enjoys composing music, writing purple prose, and crafting original problems for his math contests.",
       image: jason,
       roles: [programming],
+    },
+    {
+      name: "Ophir",
+      blurb:
+        "Coming Soon",
+        image: sigma,
+      roles: [programming],
+    },
+    {
+      name: "Nate",
+      blurb:
+        "Coming Soon",
+        image: sigma,
+      roles: [programming],
+    },
+    {
+      name: "Thomas",
+      blurb:
+        "Coming Soon",
+        image: sigma,
+      roles: [programming],
+    },
+    {
+      name: "Lillian",
+      blurb:
+        "Coming Soon",
+        image: sigma,
+      roles: [nontechnical],
+    },
+    {
+      name: "Tanuj",
+      blurb:
+        "Coming Soon",
+        image: sigma,
+      roles: [nontechnical],
+    },
+    {
+      name: "Carter",
+      blurb:
+        "Coming Soon",
+        image: sigma,
+      roles: [mechanical],
+    },
+    {
+      name: "Michael",
+      blurb:
+        "Coming Soon",
+        image: sigma,
+      roles: [mechanical],
+    },
+    {
+      name: "Ian",
+      blurb:
+        "Coming Soon",
+        image: sigma,
+      roles: [mechanical],
+    },
+    {
+      name: "Jishnu",
+      blurb:
+        "Coming Soon",
+        image: sigma,
+      roles: [mechanical],
+    },
+    {
+      name: "Aaditya",
+      blurb:
+        "Coming Soon",
+        image: sigma,
+      roles: [mechanical],
     },
   ];
 
