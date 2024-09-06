@@ -52,15 +52,16 @@ export default function Home() {
       </section>
       <RobotSection value={value} />
       <section className="h-screen p-10 text-black flex flex-col justify-between">
-        <Statistic className="bg-green-400 md:mr-auto">
+        <Statistic className="bg-[#CCA4DE] md:mr-auto">
           Established August 2022
         </Statistic>
-        <Statistic className="bg-red-400 md:ml-auto">
-          Based out of the North Carolina School of Science and Math in Durham
+        <Statistic className="bg-[#949CE0] md:ml-auto">
+           Based out of the North Carolina School of Science and Math in Durham
         </Statistic>
-        <Statistic className="bg-purple-400 md:mr-auto">
+        <Statistic className="bg-[#FFA9B5] md:mr-auto">
           15 members from across NC!
         </Statistic>
+
       </section>
 
     </Wrapper>
@@ -89,3 +90,4 @@ function Statistic({ className, children }: StatisticProps) {
     </motion.div>
   );
 }
+
