@@ -13,9 +13,12 @@ export default function Software() {
       <Title text="Software" />
       <div className="flex flex-col-reverse md:grid md:grid-cols-2 mt-10 p-10 gap-10">
         <motion.section className="text-2xl" {...slidedown}>
-          Our software team works together to code a fully functioning robot. 
-          Our goal is to design code that is adabtable to various situation that 
-          may be faced on the field. 
+        At SigmaCorns we are invested in creating advanced software solutions to each FTC game. 
+        We implement control theory into our software to optimize robot movement and utilize virtual simulation
+        and testing to improve developer experience. Along with focusing on improving the performance of our robot, 
+        we are also dedicated to sharing our findings with our community. We have given workshops and classes to teach 
+        programming both within and outside of FTC, and have released guides and open source code for other teams to learn from and use. 
+        Expect to see more software resources released throughout the season!
           
         </motion.section>
         <motion.section>
