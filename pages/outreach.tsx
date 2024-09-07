@@ -21,6 +21,7 @@ export default function Outreach() {
             We maintain{" "}
             <CoolLink text="Ctrl Alt FTC" href="https://ctrlaltftc.com" />, the
             most renowned control theory guide for FTC teams, and beyond!
+            
           </p>
         </OutreachStat>
         <OutreachStat className="from-yellow-400 to-orange-600 text-xl p-5">
@@ -30,7 +31,9 @@ export default function Outreach() {
         </OutreachStat>
         <OutreachStat className="from-red-400 to-pink-600 text-xl p-5">
           <p>We presented topics of <CoolLink text="Advanced Control Theory" href="https://docs.google.com/presentation/d/1WhyvTwzY18k0Guhmij6pUPpvmrq0uYPdi8Hqed2qJwg/edit?usp=drive_link" />, 
-          Statistical Analysis, Team Sustainability, and FTC Simulations at the World Championship, Chicago Robotics Invotational, and the NC FTC Kickoff! </p>
+          <CoolLink text = "Data Driven Robotics" href = "https://docs.google.com/presentation/d/1qZ_TY1xe2xwmPmxutDOzeMs5lKtueCk0YzInVuNCaTo/edit?usp=sharing"/>, 
+          <CoolLink text ="From Fresh Faces to FTC Phenoms" href = "https://docs.google.com/presentation/d/1qA40nb_Py4L_PNKjXbRwiNmY0szv2ZKBEAMnKGelCgM/edit?usp=sharing"/>, 
+          and FTC Simulations at the World Championship, Chicago Robotics Invotational, and the NC FTC Kickoff! </p>
           <p>
             {/*<CoolLink text="NC FTC Presentation Kick-off" href="https://docs.google.com/presentation/d/1WhyvTwzY18k0Guhmij6pUPpvmrq0uYPdi8Hqed2qJwg/edit?usp=drive_link" />*/}
             {/*<CoolLink text=" - Advanced Control Theory" href="https://docs.google.com/presentation/d/1WhyvTwzY18k0Guhmij6pUPpvmrq0uYPdi8Hqed2qJwg/edit?usp=drive_link" />*/}
