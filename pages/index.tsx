@@ -46,7 +46,7 @@ export default function Home() {
           />
           </motion.div>
           <motion.h3 {...slidedown} className="font-light md:text-3xl">
-            NCSSM • FTC Team #22377
+            NCSSM • FTC Team #22377 • @ftc22377
             </motion.h3>
         </div>
       </section>
