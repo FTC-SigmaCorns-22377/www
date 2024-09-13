@@ -209,14 +209,14 @@ export default function Team() {
     {
       name: "Ian",
       blurb:
-        "Coming Soon",
+        "Ian Suh, a senior at NCSSM originally from Apex, NC, is now in his fifth year of participating in FIRST Robotics. He specializes in mechanical work, including designing, manufacturing, and assembling robots. Outside of robotics, Ian enjoys drawing and studying physics in his free time.",
         image: sigma,
       roles: [mechanical],
     },
     {
       name: "Jishnu",
       blurb:
-        "Coming Soon",
+        "Jishnu is a junior at NCSSM and is originally from Greensboro, North Carolina. This is his 3rd year in FTC and 7th overall year in FIRST. His primary interests on Sigmacorns are related to mechanical design, fabrication, and optimization. He is also excited to strengthen his FTC programming skills to get a more nuanced perspective. Outside of FIRST, Jishnu enjoys photography, nature walks, puzzles, and interdisciplinary biology. He is looking forward to all the new memories and surprises that are about to come!",
         image: sigma,
       roles: [mechanical],
     },
