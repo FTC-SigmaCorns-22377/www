@@ -13,6 +13,7 @@ import isabel from "../public/media/abc/isabel.png";
 //import joseph from "../public/media/abc/joseph.png";
 import june from "../public/media/abc/june.png";
 import lola from "../public/media/abc/lola.png";
+
 //import may from "../public/media/abc/may.png";
 //import nikhil from "../public/media/abc/nikhil.png";
 //import suth from "../public/media/abc/suth.png";
