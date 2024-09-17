@@ -22,6 +22,18 @@ import taylor from "../public/media/abc/taylor.png";
 import jason from "../public/media/abc/jason.png";
 //import olive from "../public/media/abc/olive.png";
 import sigma from "../public/media/abc/sigma.png"
+import taylor1 from "../public/media/abc/taylor1.png"
+import jason1 from "../public/media/abc/jason1.png"
+import lola1 from "../public/media/abc/lola1.png"
+import isabel1 from "../public/media/abc/isabel1.png"
+import micheal from "../public/media/abc/micheal.png"
+import ophir from "../public/media/abc/ophir.png"
+import lillian from "../public/media/abc/lillian.png"
+import thomas from "../public/media/abc/thomas.png"
+import carter from "../public/media/abc/carter.png"
+import june1 from "../public/media/abc/june1.png"
+import nate from "../public/media/abc/nate.png"
+
 
 export default function Team() {
   const mechanical: RoleProps = {
@@ -120,21 +132,21 @@ export default function Team() {
       name: "Isabel",
       blurb:
         "Isabel is a Senior at NCSSM and has been apart of FIRST for 8 years. She did FLL for 5 years then did FTC for 4 years. She is a member of the mechanical sub group on team 22377 Sigma Corns. She looks forward to expanding her knowledge is all aspects of robotics.",
-      image: isabel,
+      image: isabel1,
       roles: [mechanical],
     },
     {
       name: "June",
       blurb:
         "June is from Cary, North Carolina, and this is her second year on SigmaCorns and 4th year doing FTC. On the team she works on designing, assembling, and testing mechanisms, and she's looking forward to continuing to learn all she can. Off the team she enjoys photography, reading, and hanging out with friends. ",
-      image: june,
+      image: june1,
       roles: [mechanical, captain],
     },
     {
       name: "Lola",
       blurb:
         "Lola is a Senior originally from Winston Salem, NC but currently studying at the NCSSM. This is Lola’s 4th year participating on an FTC team. Lola has loved the energy and passion for FIRST that all the members of the team share and she can’t wait to see what progress SigmaCorns makes this year. ",
-      image: lola,
+      image: lola1,
       roles: [nontechnical, captain],
     },
     // {
@@ -148,42 +160,42 @@ export default function Team() {
       name: "Taylor",
       blurb:
         "Taylor is a Senior at NCSSM where she focuses on computer science. She is originally from Western North Carolina and will be doing FTC for the second time this year. She is very excited to learn all about FTC and what it can do to impact communities around the Durham area!",
-      image: taylor,
+      image: taylor1,
       roles: [programming],
     },
     {
       name: "Jason",
       blurb:
         "Jason is a homeschooled ninth grader from Durham. This is his second year participating in FIRST, and he is excited to apply his math background to robotics. In his free time, he enjoys composing music, writing purple prose, and crafting original problems for his math contests.",
-      image: jason,
+      image: jason1,
       roles: [programming],
     },
     {
       name: "Ophir",
       blurb:
         "Ophir, originally from Huntersville, North Carolina, is a junior at NCSSM. This is his first year participating in FTC, and he is eager to apply his data science background to robotics. Ophir looks forward to the season, excited to expand his skills and knowledge in computer science and robotics.",
-        image: sigma,
+        image: ophir,
       roles: [programming],
     },
     {
       name: "Nate",
       blurb:
         "Nate is a junior at NCSSM who is originally from Greensboro, North Carolina. This is Nate's first year participating in FTC, and he is interested in implementing machine learning algorithms, mainly visual models, into robots. As hobbies, he enjoys learning math, programming (mainly math algorithms), and producing music in FL Studio.",
-        image: sigma,
+        image: nate,
       roles: [programming],
     },
     {
       name: "Thomas",
       blurb:
         "Coming Soon",
-        image: sigma,
+        image: thomas,
       roles: [programming],
     },
     {
       name: "Lillian",
       blurb:
         "Lillian is a junior from Chapel Hill, who is currently studying at NCSSM. This is her second year doing FTC. On the team, Lillian helps the SigmaCorns with outreach, including organizing events, networking with industry professionals, and building a brand.",
-        image: sigma,
+        image: lillian,
       roles: [nontechnical],
     },
     {
@@ -197,14 +209,14 @@ export default function Team() {
       name: "Carter",
       blurb:
         "Carter is from Apex, North Carolina and this is his first year on SigmaCorns. He is on the mechanical subgroup and works on design and assembly. In his free time, he enjoys working on cars, engines, and typing.",
-        image: sigma,
+        image: carter,
       roles: [mechanical],
     },
     {
       name: "Michael",
       blurb:
         "Coming Soon",
-        image: sigma,
+        image: micheal,
       roles: [mechanical],
     },
     {
