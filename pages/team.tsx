@@ -33,6 +33,8 @@ import thomas from "../public/media/abc/thomas.png"
 import carter from "../public/media/abc/carter.png"
 import june1 from "../public/media/abc/june1.png"
 import nate from "../public/media/abc/nate.png"
+import aaditya from "../public/media/abc/aaditya.png"
+import jishnu from "../public/media/abc/jishnu.png"
 
 
 export default function Team() {
@@ -215,7 +217,7 @@ export default function Team() {
     {
       name: "Michael",
       blurb:
-        "Coming Soon",
+        "Michael is a junior at NCSSM and is originally from Raleigh, North Carolina, and this is his second year doing FTC and seventh doing FIRST. On the team he works on manufacturing, assembling, and testing mechanisms. Off the team Michael enjoys learning physics and chemistry, rocketry, and hanging out with friends.",
         image: micheal,
       roles: [mechanical],
     },
@@ -230,14 +232,14 @@ export default function Team() {
       name: "Jishnu",
       blurb:
         "Jishnu is a junior at NCSSM and is originally from Greensboro, North Carolina. This is his 3rd year in FTC and 7th overall year in FIRST. His primary interests on Sigmacorns are related to mechanical design, fabrication, and optimization. He is also excited to strengthen his FTC programming skills to get a more nuanced perspective. Outside of FIRST, Jishnu enjoys photography, nature walks, puzzles, and interdisciplinary biology. He is looking forward to all the new memories and surprises that are about to come!",
-        image: sigma,
+        image: jishnu,
       roles: [mechanical],
     },
     {
       name: "Aaditya",
       blurb:
         "Aaditya is a Junior originally from Apex, NC but currently studying at NCSSM. This is Aaditya's 3rd year in FTC and 4th year in FIRST. Aaditya loves to create and innovate on new ideas is excited to share them with the FIRST community! Off the team he enjoys playing volleyball, table tennis, and participating in other competitive events.",
-        image: sigma,
+        image: aaditya,
       roles: [mechanical],
     },
   ];
