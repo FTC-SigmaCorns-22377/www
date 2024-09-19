@@ -4,37 +4,38 @@ import { motion } from "framer-motion";
 import { slideup, stagger } from "../utils/motionPresets";
 import Wrapper from "../components/Wrapper";
 
-import bencaunt from "../public/media/team/bencaunt.png";
+// import bencaunt from "../public/media/team/bencaunt.png";
 //import ayush from "../public/media/abc/ayush.png";
 //import achyuta from "../public/media/abc/achyuta.png";
 //import anirudh from "../public/media/abc/ani.png";
 //import caroleen from "../public/media/abc/caroleen.png";
-import isabel from "../public/media/abc/isabel.png";
+// import isabel from "../public/media/abc/isabel.png";
 //import joseph from "../public/media/abc/joseph.png";
-import june from "../public/media/abc/june.png";
-import lola from "../public/media/abc/lola.png";
+// import june from "../public/media/abc/june.png";
+// import lola from "../public/media/abc/lola.png";
 
 //import may from "../public/media/abc/may.png";
 //import nikhil from "../public/media/abc/nikhil.png";
 //import suth from "../public/media/abc/suth.png";
-import taylor from "../public/media/abc/taylor.png";
+// import taylor from "../public/media/abc/taylor.png";
 //import jane from "../public/media/abc/jane.png";
-import jason from "../public/media/abc/jason.png";
+// import jason from "../public/media/abc/jason.png";
 //import olive from "../public/media/abc/olive.png";
-import sigma from "../public/media/abc/sigma.png"
-import taylor1 from "../public/media/abc/taylor1.png"
-import jason1 from "../public/media/abc/jason1.png"
-import lola1 from "../public/media/abc/lola1.png"
-import isabel1 from "../public/media/abc/isabel1.png"
-import micheal from "../public/media/abc/micheal.png"
-import ophir from "../public/media/abc/ophir.png"
-import lillian from "../public/media/abc/lillian.png"
-import thomas from "../public/media/abc/thomas.png"
-import carter from "../public/media/abc/carter.png"
-import june1 from "../public/media/abc/june1.png"
-import nate from "../public/media/abc/nate.png"
-import aaditya from "../public/media/abc/aaditya.png"
-import jishnu from "../public/media/abc/jishnu.png"
+ import sigma from "../public/media/abc/sigma.png"
+import taylor1 from "../public/media/abc/taylor1.jpg"
+import jason1 from "../public/media/abc/jason1.jpg"
+import lola1 from "../public/media/abc/lola1.jpg"
+import isabel1 from "../public/media/abc/isabel1.jpg"
+import micheal from "../public/media/abc/micheal.jpg"
+import ophir from "../public/media/abc/ophir.jpg"
+import lillian from "../public/media/abc/lillian.jpg"
+import thomas from "../public/media/abc/thomas.jpg"
+import carter from "../public/media/abc/carter.jpg"
+import june1 from "../public/media/abc/june1.jpg"
+import nate from "../public/media/abc/nate.jpg"
+import aaditya from "../public/media/abc/aaditya.jpg"
+import jishnu from "../public/media/abc/jishnu.jpg"
+import tanuj from "../public/media/abc/tanuj.jpg"
 
 
 export default function Team() {
@@ -189,7 +190,7 @@ export default function Team() {
     {
       name: "Thomas",
       blurb:
-        "Coming Soon",
+        "Thomas is a junior at NCSSM and this is his 3rd year doing FTC and first year on the team. He is interested in simulators and applying control theory concepts to FTC. Outside of robotics he enjoys writing low level programs and spending time with friends.",
         image: thomas,
       roles: [programming],
     },
@@ -204,7 +205,7 @@ export default function Team() {
       name: "Tanuj",
       blurb:
         "Tanuj is a junior at NCSSM and has been a part of FIRST for 8 years. He's been interested in the community outreach aspect of robotics and continues to spread the FIRST message. In his free time he enjoys to read and spend time with friends.",
-        image: sigma,
+        image: tanuj,
       roles: [nontechnical],
     },
     {
