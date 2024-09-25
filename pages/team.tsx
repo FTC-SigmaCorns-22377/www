@@ -36,6 +36,7 @@ import nate from "../public/media/abc/nate.jpg"
 import aaditya from "../public/media/abc/aaditya.jpg"
 import jishnu from "../public/media/abc/jishnu.jpg"
 import tanuj from "../public/media/abc/tanuj.jpg"
+import ian from "../public/media/abc/ian.jpg"
 
 
 export default function Team() {
@@ -164,7 +165,7 @@ export default function Team() {
       blurb:
         "Taylor is a Senior at NCSSM where she focuses on computer science. She is originally from Western North Carolina and will be doing FTC for the second time this year. She is very excited to learn all about FTC and what it can do to impact communities around the Durham area!",
       image: taylor1,
-      roles: [programming],
+      roles: [programming, nontechnical],
     },
     {
       name: "Jason",
@@ -226,7 +227,7 @@ export default function Team() {
       name: "Ian",
       blurb:
         "Ian Suh, a senior at NCSSM originally from Apex, NC, is now in his fifth year of participating in FIRST Robotics. He specializes in mechanical work, including designing, manufacturing, and assembling robots. Outside of robotics, Ian enjoys drawing and studying physics in his free time.",
-        image: sigma,
+        image: ian,
       roles: [mechanical],
     },
     {
