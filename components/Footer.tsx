@@ -34,7 +34,7 @@ export default function Footer() {
           {/* TODO: add resources */}
           <LinkRow title="Resources">
             <LinkItem
-              href="/https://www.firstinspires.org/robotics/ftc"
+              href="https://www.ncfllandftc.com/"
               text="First Tech Challenge"
             />
             <LinkItem href="https://example.com" text="Coming Soon" />
